@@ -1,0 +1,234 @@
+/* 폰트적용 아직 못함 */
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+li{
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.section1 {
+    position: relative;
+    height: 768px;
+    background: url('images/architecture-2256489_1920.png') center no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.section1-txtmain{
+    text-align: center;
+    font-size: 60px;
+}
+
+.section1-txtsub{
+    margin-top: 49px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.section2 {
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.item-img {
+    width: 283px;
+    height: 233px;
+}
+
+.item-txtmain {
+    
+}
+
+.content2 {
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+}
+
+.content3{
+    margin-top: 193px;
+    display: flex;
+    justify-content: center;
+}
+
+.section3{
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.content4-txt{
+    margin-top: 254px;
+    display: flex;
+    justify-content: center;
+}
+
+.section4 {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+    height: (25+239+57)px;
+}
+
+.section4-card {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-content: center;
+    column-gap: 48px;
+    row-gap: 56px;
+}
+
+.content5{
+    margin-top: 71px;
+    display: flex;
+    justify-content: center;
+}
+
+.section5 {
+    
+}
+
+.section5-list {
+    margin-top: 200.6px;
+    display: flex;
+    justify-content: center;
+    gap: 244px;
+}
+
+.section6-cardwrap {
+    margin-top: 37px;
+    display:flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.section6-txt{
+    margin-top: 221px;
+    display: flex;
+    justify-content: center;
+}
+
+.section6-txt2 {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.content6{
+    margin-top: 181px;
+    display: flex;
+    justify-content: center;
+}
+
+.section7{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.section7-cardwrap{
+    margin-top: 37px;
+    display: flex;
+    height: 360px;
+}
+
+.section7-card{
+    margin-top: 37px;
+    background: #F2F3F4;
+    border-radius: 16px;
+    width: 680px;
+    height: 360px;
+}
+.section7-cardcontent{
+    margin-top: 60px;
+    display: flex;
+}
+
+.sextion7-txt{
+    margin-top: 30px;
+}
+
+.section8{
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+}
+
+.section9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 136px;
+    height: 608px;
+    background: #0E7159;
+}
+
+.section9-txt{
+    margin-top: 138px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+.section9-btn{
+    margin-top: 62px;
+    width: 170px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px #0E7159;
+    background-color: #FFFFFF ;
+}
+
+footer{
+    margin-left: 390px;
+    margin-top: 26px;
+    height: 159px;
+}
+
+.footer-title{
+    color: #333D4B;
+}
+
+.footer-txt{
+    margin-top: 18px;
+    color: #6B7684;
+}
